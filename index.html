@@ -2,19 +2,41 @@
 <html lang = "en">
     <head>
         <link href="./style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="description" content="this website conatins all the professional information about me">
+        <meta name="author" content="Mitchell Comer">
+        <meta name="keywords" content="software engineer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mitchell's Personal Website</title>
     </head>
+
     <body>
-        <!--CONTENT-->
+        <!--header-->
         <div class = "pwebsite">
-            <div class = "pwebsite-img">
-                <img src="data:image/jpeg;base64,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" alt = "quack">
-            </div>
-            <div class = "pwebsite-details">
-                <h2 class = "title">Hello, I am Mitchell</h2>
-                <p>I love to code</p>
-                <a href = "https://www.linkedin.com/in/mitchellcomer" id="more-me">Check out my Linkedin</a>
-                <a href = "./resume.pdf" id="more-me">Check out my resume</a>
-            </div>
+            <span class = "pwebsite-img">
+                <img src="profPic.jpg" alt = "Picture of me">
+            </span>
+            <span class = "pwebsite-details">
+                <h2 class = "title">Mitchell Comer</h2>
+                <h4 class="subtitle">Student | Full Stack</h4>
+                <a href = "https://www.linkedin.com/in/mitchellcomer" id="more-me" target="_blank">
+                  <button class="linkedinButton">
+                    <img class="inicon" src="linkedinicon.png" alt="in">
+                  </button>
+                </a>
+                <a href = "./resume.pdf" id="more-me" target="_blank">
+                  <button class="resumeButton">
+                    <img class="resicon" src="resiconn.jpg" alt="resume">
+                  </button>
+                </a>
+              </span>
+        </div>
+
+        <!--about me section-->
+        <div class = "about">
+          <p>
+            I am a current student University of Massachusetts Amherst
+          </p>
         </div>
     </body>
 </html>
