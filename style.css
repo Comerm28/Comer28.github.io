@@ -10,8 +10,6 @@
 }
 
 .pwebsite-img img{
-    height: fit-content;
-    width: fit-content;
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
@@ -36,8 +34,18 @@
 
 .resumeButton{
     border-radius: 50%;
-    border: transparent;
     width: fit-content;
+}
+
+.resumeButton:hover .resicon{
+    opacity: .5;
+    transition: opacity .15s;
+}
+
+.resumeButton:active .resicon{
+    opacity: .25;
+    transition: opacity .15s;
+
 }
 
 .inicon{
@@ -47,6 +55,15 @@
 
 .linkedinButton{
     border-radius: 50%;
-    border: transparent;
     width: fit-content;
+}
+
+.linkedinButton:hover .inicon{
+    opacity: .5;
+    transition: opacity .15s;
+}
+
+.linkedinButton:active .inicon{
+    opacity: .25;
+    transition: opacity .15s;
 }
