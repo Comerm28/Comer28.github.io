@@ -92,7 +92,59 @@ body {
     transition: opacity .15s;
 }
 
+.aboutBox{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
 .about{
-    background-color: aquamarine;
+    background-color: antiquewhite;
     padding: 20px;
+    width: 72%;
+    float: left;
+    margin-right: 2%;
+    height: 100px;
+}
+
+.languages{
+    background-color: antiquewhite;
+    float: right;
+    width: 35%;
+    height: 300px;
+}
+
+.headerContainer{
+    background-color: transparent;
+    justify-content: center;
+    display: flex;
+}
+
+.javaContainer{
+    display: inline-flex;
+}
+
+.javaRect{
+    height: 100%;
+    width: 100%;
+    fill: green;
+}
+
+.unjavaRect{
+    height: 100%;
+    width: 100%;
+    fill: gray;
+}
+
+.pyRect{
+    height: 8%;
+    width: 50%;
+    fill: green;
+    
+}
+
+.unpyRect{
+    height: 8%;
+    width: 25%;
+    fill: gray;
 }
