@@ -122,6 +122,7 @@ body {
 
 .javaContainer{
     display: inline-flex;
+    margin-left: 10%;
 }
 
 .javaRect{
@@ -134,6 +135,10 @@ body {
     height: 100%;
     width: 100%;
     fill: gray;
+}
+
+.jtext{
+
 }
 
 .pyRect{
