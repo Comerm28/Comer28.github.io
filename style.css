@@ -95,7 +95,7 @@ body {
 .aboutBox{
     display: flex;
     flex-direction: row;
-    align-items: normal;
+    height: 300px;
 }
 
 .about{
@@ -111,7 +111,8 @@ body {
     background-color: antiquewhite;
     float: right;
     width: 35%;
-    height: 300px;
+    height: 100%;
+    padding: 1%;
 }
 
 .headerContainer{
@@ -121,8 +122,15 @@ body {
 }
 
 .javaContainer{
-    display: inline-flex;
+    display: flex;
     margin-left: 10%;
+    align-content: center;
+    height: 14%;
+}
+
+.jsvg{
+    margin-right: 10%;
+    display: block;
 }
 
 .javaRect{
@@ -138,18 +146,151 @@ body {
 }
 
 .jtext{
+    font-size: large;
+    align-content: first baseline;
+}
 
+.pyContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+}
+
+.psvg{
+    margin-right: 10%;
+    display: block;
 }
 
 .pyRect{
-    height: 8%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     fill: green;
-    
 }
 
 .unpyRect{
-    height: 8%;
-    width: 25%;
+    height: 100%;
+    width: 100%;
     fill: gray;
+}
+
+.pytext{
+    font-size: large;
+    align-content: first baseline;
+}
+
+.cContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+}
+
+.csvg{
+    margin-right: 10%;
+    display: block;
+}
+
+.cRect{
+    height: 100%;
+    width: 100%;
+    fill: green;
+}
+
+.uncRect{
+    height: 100%;
+    width: 100%;
+    fill: gray;
+}
+
+.ctext{
+    font-size: large;
+    align-content: first baseline;
+}
+
+.htmlContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+}
+
+.htmlsvg{
+    margin-right: 10%;
+    display: block;
+}
+
+.htmlRect{
+    height: 100%;
+    width: 100%;
+    fill: green;
+}
+
+.unhtmlRect{
+    height: 100%;
+    width: 100%;
+    fill: gray;
+}
+
+.htmltext{
+    font-size: large;
+    align-content: first baseline;
+}
+
+.cssContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+}
+
+.csssvg{
+    margin-right: 10%;
+    display: block;
+}
+
+.cssRect{
+    height: 100%;
+    width: 100%;
+    fill: green;
+}
+
+.uncssRect{
+    height: 100%;
+    width: 100%;
+    fill: gray;
+}
+
+.csstext{
+    font-size: large;
+    align-content: first baseline;
+}
+
+.jsContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+}
+
+.jssvg{
+    margin-right: 10%;
+    display: block;
+}
+
+.jsRect{
+    height: 100%;
+    width: 100%;
+    fill: green;
+}
+
+.unjsRect{
+    height: 100%;
+    width: 100%;
+    fill: gray;
+}
+
+.jstext{
+    font-size: large;
+    align-content: first baseline;
 }
