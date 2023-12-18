@@ -105,6 +105,8 @@ body {
     float: left;
     margin-right: 2%;
     height: 100px;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .languages{
@@ -113,6 +115,8 @@ body {
     width: 35%;
     height: 100%;
     padding: 1%;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .headerContainer{
