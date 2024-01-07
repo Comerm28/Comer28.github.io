@@ -1,31 +1,28 @@
 body {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(218, 161, 104);
 }
 
 .pwebsite{
-    padding: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 1%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: antiquewhite !important;
-}
-
-.pwebsite-img img{
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin-right: 10px;
+    display: flex;
 }
 
 .pwebsite-img{
-    background-color: transparent;
+    border-radius: 50%;
+    height: 50vh;
+    margin-left: 5vw;
+    margin-right: 2vw;
 }
 
-.pwebsite .table{
+.table{
     background-color: rgb(98, 66, 43) !important;
-    border-collapse: collapse;
+    height: fit-content;
+    padding: .5%;
+    align-self:last baseline;
+    border-radius: 5%;
+    margin-bottom: 2vh;
 }
 
 * {
@@ -94,35 +91,49 @@ body {
 
 .aboutBox{
     display: flex;
-    flex-direction: row;
-    height: 300px;
+    height: 100%;
+}
+
+.leftside{
+    width: fit-content;
 }
 
 .about{
     background-color: antiquewhite;
-    padding: 15px;
-    width: 72%;
+    padding: .05%;
+    width: 90%;
     float: left;
-    margin-right: 2%;
-    height: 100px;
-    overflow-y: auto;
-    overflow-x: auto;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    margin-left: 1vw;
+}
+
+.experience{
+    background-color:antiquewhite;
+    width: 90%;
+    float: left;
+    height: fit-content;
+    margin-left: 1vw;
+    padding-left: 1vw;
 }
 
 .languages{
     background-color: antiquewhite;
     float: right;
-    width: 35%;
-    height: 100%;
+    width: 50vw;
+    height: fit-content;
     padding: 1%;
-    overflow-y: auto;
-    overflow-x: auto;
+    margin-right: 3vw;
+    
 }
 
 .headerContainer{
     background-color: transparent;
     justify-content: center;
     display: flex;
+    margin-bottom: 2vh;
 }
 
 .javaContainer{
@@ -130,6 +141,7 @@ body {
     margin-left: 10%;
     align-content: center;
     height: 14%;
+    margin-bottom: 2vh;
 }
 
 .jsvg{
@@ -159,6 +171,7 @@ body {
     margin-left: 10%;
     align-content: center;
     height: 14%;
+    margin-bottom: 2vh;
 }
 
 .psvg{
@@ -188,6 +201,7 @@ body {
     margin-left: 10%;
     align-content: center;
     height: 14%;
+    margin-bottom: 2vh;
 }
 
 .csvg{
@@ -217,6 +231,7 @@ body {
     margin-left: 10%;
     align-content: center;
     height: 14%;
+    margin-bottom: 2vh;
 }
 
 .htmlsvg{
@@ -246,6 +261,7 @@ body {
     margin-left: 10%;
     align-content: center;
     height: 14%;
+    margin-bottom: 2vh;
 }
 
 .csssvg{
@@ -275,6 +291,7 @@ body {
     margin-left: 10%;
     align-content: center;
     height: 14%;
+    margin-bottom: 2vh;
 }
 
 .jssvg{
