@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(218, 161, 104);
+    background-color: rgb(206, 150, 94);
 }
 
 .pwebsite{
     padding: 1%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: antiquewhite !important;
+    background-color: rgb(205, 173, 141) !important;
     display: flex;
     border: .2vh solid black;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .table{
-    background-color: rgb(98, 66, 43) !important;
+    background-color: rgb(133, 92, 63) !important;
     height: fit-content;
     padding: .5%;
     align-self:last baseline;
