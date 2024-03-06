@@ -7,6 +7,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: antiquewhite !important;
     display: flex;
+    border: .2vh solid black;
 }
 
 .pwebsite-img{
@@ -100,7 +101,7 @@ body {
 
 .about{
     background-color: antiquewhite;
-    padding: .05%;
+    padding: .5%;
     width: 90%;
     float: left;
     height: fit-content;
@@ -108,6 +109,7 @@ body {
     margin-bottom: 2vh;
     margin-right: 2vw;
     margin-left: 1vw;
+    border: .2vh solid black;
 }
 
 .experience{
@@ -117,6 +119,8 @@ body {
     height: fit-content;
     margin-left: 1vw;
     padding-left: 1vw;
+    margin-bottom: 1vh;
+    border: .2vh solid black;
 }
 
 .languages{
@@ -126,7 +130,7 @@ body {
     height: fit-content;
     padding: 1%;
     margin-right: 3vw;
-    
+    border: .2vh solid black;
 }
 
 .headerContainer{
