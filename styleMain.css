@@ -286,7 +286,7 @@ body {
     align-content: first baseline;
 }
 
-.jsContainer{
+.rContainer{
     display: flex;
     margin-left: 10%;
     align-content: center;
@@ -294,24 +294,24 @@ body {
     margin-bottom: 2vh;
 }
 
-.jssvg{
+.rsvg{
     margin-right: 10%;
     display: block;
 }
 
-.jsRect{
+.rRect{
     height: 100%;
     width: 100%;
     fill: green;
 }
 
-.unjsRect{
+.unrRect{
     height: 100%;
     width: 100%;
     fill: gray;
 }
 
-.jstext{
+.rtext{
     font-size: large;
     align-content: first baseline;
 }
