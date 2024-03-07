@@ -17,7 +17,7 @@ body {
     margin-right: 2vw;
 }
 
-.table{
+.introBox{
     background-color: rgb(133, 92, 63) !important;
     height: fit-content;
     padding: .5%;
@@ -26,8 +26,8 @@ body {
     margin-bottom: 2vh;
 }
 
-* {
-    background-color: transparent;
+.header{
+ justify-content: center;
 }
 
 .title{
@@ -39,6 +39,38 @@ body {
 .subtitle{
     text-align: left;
     padding-right: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.transcriptIcon{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.transcriptButton{
+    border-radius: 50%;
+    width: fit-content;
+    border: none;
+    border-width: 0;
+    background-color: transparent;
+}
+
+.transcriptIcon:hover{
+    opacity: .7;
+    transition: opacity .15s;
+}
+
+.transcriptIcon:active{
+    opacity: .5;
+    transition: opacity .15s;
 }
 
 .resicon{
@@ -55,6 +87,7 @@ body {
     width: fit-content;
     border: none;
     border-width: 0;
+    background-color: transparent;
 }
 
 .resicon:hover{
@@ -78,6 +111,7 @@ body {
     border: none;
     border-width: 0;
     margin-right: 10px;
+    background-color: transparent;
 }
 
 .inicon:hover{
