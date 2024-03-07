@@ -3,7 +3,7 @@ body {
 }
 
 .pwebsite{
-    padding: 1%;
+    padding: 1vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(205, 173, 141) !important;
     display: flex;
@@ -20,7 +20,7 @@ body {
 .introBox{
     background-color: rgb(133, 92, 63) !important;
     height: fit-content;
-    padding: .5%;
+    padding: 1vh;
     align-self:last baseline;
     border-radius: 5%;
     margin-bottom: 2vh;
@@ -33,12 +33,12 @@ body {
 .title{
     text-align: left;
     font-size: 30px;
-    padding-right: 10px;
+    padding-right: 1vw;
 }
 
 .subtitle{
     text-align: left;
-    padding-right: 10px;
+    padding-right: 1vw;
 }
 
 .buttons{
@@ -47,20 +47,17 @@ body {
 }
 
 .transcriptIcon{
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    height: 50px;
-    width: 50px;
+    border-radius: 50%;
+    height: 6.5vh;
+    
 }
 
 .transcriptButton{
     border-radius: 50%;
     width: fit-content;
     border: none;
-    border-width: 0;
     background-color: transparent;
+    padding-right: 1.5vw;
 }
 
 .transcriptIcon:hover{
@@ -74,12 +71,9 @@ body {
 }
 
 .resicon{
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    height: 50px;
-    width: 50px;
+    border-radius: 50%;
+    height: 6.5vh;
+    width: 6.5vh;
 }
 
 .resumeButton{
@@ -102,7 +96,7 @@ body {
 
 .inicon{
     border-radius: 50%;
-    width: 50px;
+    height: 6.5vh;
 }
 
 .linkedinButton{
@@ -110,8 +104,8 @@ body {
     width: fit-content;
     border: none;
     border-width: 0;
-    margin-right: 10px;
     background-color: transparent;
+    padding-right: 1.5vw;
 }
 
 .inicon:hover{
