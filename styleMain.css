@@ -248,6 +248,8 @@ body {
 }
 
 .languages{
+    display: flex;
+    flex-direction: column;
     background-color: antiquewhite;
     float: right;
     width: 50vw;
@@ -256,6 +258,7 @@ body {
     padding: 1%;
     margin-right: 3vw;
     margin-left: 2vw;
+    margin-top: 8.5vh;
     border: .2vh solid black;
 }
 
