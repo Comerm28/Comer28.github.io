@@ -3,41 +3,87 @@ body {
 }
 
 .pwebsite{
-    padding: 1vh;
+    padding-top: 7vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(205, 173, 141) !important;
     display: flex;
     border: .2vh solid black;
+    flex-direction: row;
+    min-width: fit-content;
+}
+
+@media(max-width: 600px){
+    .pwebsite{
+        overflow-x: hidden;
+        overflow-y: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgspan{
+        margin-bottom: 1.5vh;
+    }
+
+    .introBox{
+        margin: 0 auto;
+    }
+
+    .thelab{
+        max-width: 30vh;
+        align-self: center !important;
+    }
+}
+
+.imgspan{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    max-width: fit-content;
+    margin-right: 3vh;
+    margin-left: 4vh;
 }
 
 .pwebsite-img{
     border-radius: 50%;
     height: 50vh;
-    margin-left: 5vw;
-    margin-right: 2vw;
 }
 
 .introBox{
     background-color: rgb(133, 92, 63) !important;
-    height: fit-content;
-    padding: 1vh;
-    align-self:last baseline;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     border-radius: 5%;
-    margin-bottom: 2vh;
+    display: flexbox;
+    width: fit-content;
+    align-self: flex-end;
+    min-width: fit-content;
 }
 
 .header{
  justify-content: center;
+ display: inline-flex;
+ width: 100%;
+ min-width: fit-content;
+ padding-bottom: 1vh;
 }
 
 .title{
-    text-align: left;
+    text-align: center;
+    text-wrap: nowrap;
     font-size: 30px;
     padding-right: 1vw;
 }
 
 .subtitle{
-    text-align: left;
+    text-align: center;
+    text-wrap: nowrap;
+    align-self: center;
     padding-right: 1vw;
 }
 
@@ -118,6 +164,58 @@ body {
     transition: opacity .15s;
 }
 
+.thelab{
+    background-color: rgb(133, 92, 63) !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    align-self: last baseline;
+    border: 1px solid black;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    padding: 2vh;
+}
+
+.labStyle{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+}
+
+.labIcon{
+    border-radius: 50%;
+    height: fit-content;
+    background: transparent;
+}
+
+.labButton{
+    border-radius: 50%;
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+}
+
+.labTitle{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding-top: 4vh;
+    font-size: 20px;
+}
+
+.labIcon:hover{
+    opacity: .7;
+    transition: opacity .15s;
+}
+
+.labIcon:active{
+    opacity: .5;
+    transition: opacity .15s;
+}
+
 .aboutBox{
     display: flex;
     height: 100%;
@@ -155,6 +253,7 @@ body {
     background-color: antiquewhite;
     float: right;
     width: 50vw;
+    min-width: fit-content;
     height: fit-content;
     padding: 1%;
     margin-right: 3vw;
