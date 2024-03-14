@@ -10,7 +10,7 @@ body {
     border: .2vh solid black;
     flex-direction: row;
     min-width: fit-content;
-    align-self: center;
+    margin: 0 auto;
 }
 
 @media(max-width: 600px){
