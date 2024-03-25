@@ -1,0 +1,82 @@
+body{
+    background-color: burlywood;
+}
+
+.rushrating{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    width: 98.5vw;
+    border: .2vh solid black;
+    padding-left: .3vw;
+    padding-bottom: 1vw;
+}
+
+.rushratingdiv{
+    display: flex;
+    align-items: last-baseline;
+}
+
+.buttonSpan{
+    height: 100%;
+    padding: 1vw;
+}
+
+.gitIcon{
+    border-radius: 50%;
+    height: 6.5vh;
+}
+
+.rushgitButton{
+    border-radius: 50%;
+    width: 10%;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.gitIcon:hover{
+    opacity: .7;
+    transition: opacity .15s;
+}
+
+.gitIcon:active{
+    opacity: .5;
+    transition: opacity .15s;
+}
+
+.graphSpan{
+    padding: 1vw;
+}
+
+.rushingGraph{
+    width: 50vw;
+}
+
+.rushwordbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rushdescription{
+    border: .1vh solid black;
+    font-size: small;
+    padding: .3vh;
+    margin-right: 1vh;
+    text-align: center;
+}
+
+.rushingcode{
+    height: 40vh;
+    width: 35vw;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: gray;
+    border: .2vh solid rgb(33, 150, 243);
+    padding-left: 1vw;
+}
+
+.rushingtext{
+    width: max-content;
+}
