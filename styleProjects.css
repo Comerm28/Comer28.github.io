@@ -2,6 +2,12 @@ body{
     background-color: burlywood;
 }
 
+@media(max-width: 600px){
+    .rushrating{
+        flex-direction: row;
+    }
+}
+
 .rushrating{
     font-size: larger;
     display: flex;
