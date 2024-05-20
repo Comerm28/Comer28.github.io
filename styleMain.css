@@ -276,23 +276,22 @@ body {
     align-content: center;
     height: 14%;
     margin-bottom: 2vh;
+    flex-direction: row;
 }
 
-.jsvg{
-    margin-right: 10%;
-    display: block;
+.jRect{
+    background-color: green;
+    width: 35%;
+    height: 1.5vh;
+    align-self: center;
 }
 
-.javaRect{
-    height: 100%;
-    width: 100%;
-    fill: green;
-}
-
-.unjavaRect{
-    height: 100%;
-    width: 100%;
-    fill: gray;
+.unJRect{
+    width: 5%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
 }
 
 .jtext{
@@ -308,21 +307,19 @@ body {
     margin-bottom: 2vh;
 }
 
-.psvg{
-    margin-right: 10%;
-    display: block;
-}
-
 .pyRect{
-    height: 100%;
-    width: 100%;
-    fill: green;
+    background-color: green;
+    width: 33%;
+    height: 1.5vh;
+    align-self: center;
 }
 
-.unpyRect{
-    height: 100%;
-    width: 100%;
-    fill: gray;
+.unPyRect{
+    width: 7%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
 }
 
 .pytext{
@@ -338,21 +335,19 @@ body {
     margin-bottom: 2vh;
 }
 
-.csvg{
-    margin-right: 10%;
-    display: block;
-}
-
 .cRect{
-    height: 100%;
-    width: 100%;
-    fill: green;
+    background-color: green;
+    width: 27%;
+    height: 1.5vh;
+    align-self: center;
 }
 
-.uncRect{
-    height: 100%;
-    width: 100%;
-    fill: gray;
+.unCRect{
+    width: 13%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
 }
 
 .ctext{
@@ -360,7 +355,7 @@ body {
     align-content: first baseline;
 }
 
-.htmlContainer{
+.htmlcssContainer{
     display: flex;
     margin-left: 10%;
     align-content: center;
@@ -368,29 +363,27 @@ body {
     margin-bottom: 2vh;
 }
 
-.htmlsvg{
-    margin-right: 10%;
-    display: block;
+.htmlcssRect{
+    background-color: green;
+    width: 25%;
+    height: 1.5vh;
+    align-self: center;
 }
 
-.htmlRect{
-    height: 100%;
-    width: 100%;
-    fill: green;
+.unhtmlcssRect{
+    width: 15%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
 }
 
-.unhtmlRect{
-    height: 100%;
-    width: 100%;
-    fill: gray;
-}
-
-.htmltext{
+.htmlcsstext{
     font-size: large;
     align-content: first baseline;
 }
 
-.cssContainer{
+.csharpContainer{
     display: flex;
     margin-left: 10%;
     align-content: center;
@@ -398,54 +391,22 @@ body {
     margin-bottom: 2vh;
 }
 
-.csssvg{
-    margin-right: 10%;
-    display: block;
+.csharpRect{
+    background-color: green;
+    width: 20%;
+    height: 1.5vh;
+    align-self: center;
 }
 
-.cssRect{
-    height: 100%;
-    width: 100%;
-    fill: green;
+.uncsharpRect{
+    width: 20%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
 }
 
-.uncssRect{
-    height: 100%;
-    width: 100%;
-    fill: gray;
-}
-
-.csstext{
-    font-size: large;
-    align-content: first baseline;
-}
-
-.rContainer{
-    display: flex;
-    margin-left: 10%;
-    align-content: center;
-    height: 14%;
-    margin-bottom: 2vh;
-}
-
-.rsvg{
-    margin-right: 10%;
-    display: block;
-}
-
-.rRect{
-    height: 100%;
-    width: 100%;
-    fill: green;
-}
-
-.unrRect{
-    height: 100%;
-    width: 100%;
-    fill: gray;
-}
-
-.rtext{
+.csharptext{
     font-size: large;
     align-content: first baseline;
 }

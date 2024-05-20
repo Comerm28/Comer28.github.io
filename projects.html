@@ -129,5 +129,90 @@ plot.show()
                 </span>
             </div>
         </div>
+
+        <div class="rushrating">
+            <div>
+                <p><b>1. NBA Minutes Predictor</b></p>
+            </div>
+
+            <div class="rushratingdiv">
+                <span class="buttonSpan">
+                    <a href = "https://github.com/Comerm28/NBA-Minutes-Predictor" target="_blank">
+                        <button class="rushgitbutton">
+                            <img class="gitIcon" src="gitIcon.png" alt="github link">
+                        </button>
+                    </a>
+                </span>
+
+                <span class="pyOutputSpan">
+                    <img class="rushingGraph" src="NBAPredictorDemo.png" alt="output of regression model">
+                    <p class="nbaMinutesdescription">
+                        To test if NBA players are worth the minutes given to them over a season
+                        I ran a regression model over all the basic counting stats per game with the 
+                        dependent variable being the minutes per game they play. To illustrate this I 
+                        demonstrated how it predicted three Timberwolves role players: Jaden Mcdaniels, Nickeil Alexander-Walker, and Naz Reid.
+                        It under predicted Jaden McDaniels minutes because it is impossible to define 
+                        his defensive presence with counting stats and overpredicted Naz Reid because he deserves more minutes, 
+                        but is just behind two highly talented and veteran centers in Karl Anthony-Towns and Rudy Gobert. This is evident
+                        from his 6th man of the year award. It correctly predicted Nickeil Alexander-Walker's value in minutes as a 
+                        standard bench piece.
+                    </p>
+                </span>
+
+                <span class="rushwordbox">
+                    <div class="rushingcode">
+                        <pre class="rushingtext">
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+from sklearn.metrics import mean_absolute_error
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import joblib
+                            
+pd.set_option('display.max_columns', None)
+                            
+def createModel():
+    df = pd.read_csv('/Users/mitch/Desktop/VSCode/NBAStatPredictor/DataSet.csv')
+    # print(df)
+                            
+    x = df.drop(columns = ['id', 'full_name', 'first_name', 'last_name', 'is_active', 'minAve'])
+    # print(x)
+                            
+    y = df['minAve']
+    # print(y)
+                            
+    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=.2)
+                            
+    reg = LinearRegression()
+                            
+    reg.fit(x_train, y_train)
+                            
+    y_pred_test = reg.predict(x_test)
+                            
+    print('R^2:', r2_score(y_test, y_pred_test))
+    print('Mean absolute error:', mean_absolute_error(y_test, y_pred_test))
+                            
+    joblib.dump(reg, 'currentmodel.pkl')
+                            
+# createModel()
+                            
+reg = joblib.load('currentmodel.pkl')
+                            
+ex = pd.read_csv('/Users/mitch/Desktop/VSCode/NBAStatPredictor/DataDemonstration.csv')
+xDemonstrate = ex.drop(columns = ['minAve'])
+                            
+print('Jaden McDaniels, Naz Reid, and Nickeil Alexander-Walker\'s MPG:', reg.predict(xDemonstrate))
+print('Actual: 27.588028169014084, 19.23926380368098, 19.62541806020067')
+                        </pre>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <!-- <div>
+            Spring boot application and unity game I am working on coming soon.
+        </div> -->
     </body>
 </html>

@@ -16,6 +16,7 @@ body{
     border: .2vh solid black;
     padding-left: .3vw;
     padding-bottom: 1vw;
+    margin-bottom: 3vh;
 }
 
 .rushratingdiv{
@@ -85,4 +86,18 @@ body{
 
 .rushingtext{
     width: max-content;
+}
+
+.pyOutputSpan{
+    padding: 1vw;
+    align-items: center;
+}
+
+.nbaMinutesdescription{
+    border: .1vh solid black;
+    font-size: small;
+    padding: .3vh;
+    margin-right: 1vh;
+    text-align: center;
+    margin-top: 5vh;
 }
