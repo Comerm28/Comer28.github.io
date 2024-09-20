@@ -410,3 +410,87 @@ body {
     font-size: large;
     align-content: first baseline;
 }
+
+.cppContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+    margin-bottom: 2vh;
+}
+
+.cppRect{
+    background-color: green;
+    width: 20%;
+    height: 1.5vh;
+    align-self: center;
+}
+
+.uncppRect{
+    width: 20%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
+}
+
+.sqltext{
+    font-size: large;
+    align-content: first baseline;
+}
+
+.sqlContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+    margin-bottom: 2vh;
+}
+
+.sqlRect{
+    background-color: green;
+    width: 15%;
+    height: 1.5vh;
+    align-self: center;
+}
+
+.unsqlRect{
+    width: 25%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
+}
+
+.sqltext{
+    font-size: large;
+    align-content: first baseline;
+}
+
+.nixContainer{
+    display: flex;
+    margin-left: 10%;
+    align-content: center;
+    height: 14%;
+    margin-bottom: 2vh;
+}
+
+.nixRect{
+    background-color: green;
+    width: 10%;
+    height: 1.5vh;
+    align-self: center;
+}
+
+.unnixRect{
+    width: 30%;
+    height: 1.5vh;
+    background-color: gray;
+    margin-right: 3vw;
+    align-self: center;
+}
+
+.nixtext{
+    font-size: large;
+    align-content: first baseline;
+}
